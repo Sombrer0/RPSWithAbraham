@@ -10,6 +10,7 @@ namespace RPSwithAbraham
     {
         static Random random = new Random();
         static void Shuffle<T>(T[] array)
+        
         {
             int n = array.Length;
             for (int i = 0; i < n; i++)
